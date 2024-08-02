@@ -2,6 +2,20 @@ html{
     font-size: 62.5%;
 }
 
+::-webkit-scrollbar {
+    width: 12px; /* Scrollbar width */
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Scrollbar track background */
+    border-radius: 10px; /* Rounded corners */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888; /* Scrollbar thumb color */
+    border-radius: 10px; /* Rounded corners */
+}
+
 * {
     margin: 0;
     padding: 0;
